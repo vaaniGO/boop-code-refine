@@ -27,7 +27,6 @@ export const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <BoopLogo size="sm" animated={false} />
-            <span className="font-bold text-foreground hidden sm:inline">BOOP</span>
           </Link>
 
           {/* Desktop Navigation */}
